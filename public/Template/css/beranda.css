@@ -1,0 +1,1577 @@
+/* Style untuk tampilan desktop */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+:link {
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    transition: top 0.3s;
+    height: 72px;
+    z-index: 100000;
+}
+
+.navbar.scrolled {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.hidden {
+    top: -60px;
+}
+
+.logo-beranda {
+    background-color: #151515;
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.d-block img {
+    width: 144px;
+    height: 100px;
+}
+
+.logo-beranda h1,
+.logo-beranda h3 {
+    color: rgb(255, 255, 255);
+}
+
+.logo-beranda img {
+    margin: 3%;
+    width: 20%;
+}
+
+.teks {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: -2%;
+}
+
+.quote {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 20px;
+}
+
+.judul {
+    text-align: start;
+    font-size: x-large;
+    margin-top: -20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-weight: bolder;
+}
+
+.maincontent {
+    text-align: justify;
+    margin-right: 525px;
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    text-indent: 0px;
+}
+
+.maincontent span {
+    float: left;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.first {
+    float: right;
+    margin-right: -30px;
+}
+
+.first img {
+    width: 100%;
+    margin-top: -270px;
+    margin-right: -625px;
+}
+
+.vm {
+    margin-top: 10%;
+}
+
+.judulvm {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subjudulvm {
+    width: 100%;
+    text-align: center;
+}
+
+.vm p:first-of-type {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+
+.tegar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 100;
+}
+
+.tegar img {
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+.tegar p {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    float: right;
+    margin-top: -15%;
+    padding-left: 20%;
+    padding-right: 5%;
+}
+
+.hanif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hanif img {
+    width: 20%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: 5%;
+    z-index: 100;
+}
+
+.hanif p {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    float: left;
+    margin-top: -15%;
+    padding-right: 28%;
+}
+
+.support {
+    color: white;
+    margin-top: 13%;
+}
+
+.support h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 2%;
+}
+
+.support p {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.support p:last-of-type {
+    margin-top: -1%;
+    padding-bottom: 2%;
+}
+
+.daftar h3 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.daftar img {
+    width: 35%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+button {
+    border: none;
+}
+
+.join {
+    background-color: black;
+    color: white;
+    margin-top: 2%;
+    margin-left: 15%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    width: 25%;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.webinar img {
+    width: 20%;
+    float: right;
+    margin-top: -27.5%;
+    margin-right: 20%;
+    margin-bottom: -12%;
+    border-radius: 10px;
+}
+
+.web {
+    background-color: black;
+    color: white;
+    position: absolute;
+    margin-top: -5.5%;
+    margin-left: 60%;
+    margin-bottom: 5%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    width: 20%;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+@keyframes slides {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 30px 0px;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos:before, .logos:after {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 250px;
+    height: 100%;
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0), whitesmoke);
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0), whitesmoke);
+  }
+  
+  .logo_items {
+    display: inline-block;
+    animation: 35s slides infinite linear;
+  }
+  
+  .logos:hover .logo_items {
+    animation-play-state: paused;
+  }
+  
+  .logo_items img{
+    height: 90px;
+  }
+
+.containerfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-logo {
+    height: 100px;
+}
+
+.footer img {
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+.footer1 {
+    color: white;
+    padding: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.footer1 > p {
+    margin-top: -5%;
+    margin-bottom: -5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.containerimg {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+
+.containerimg a:hover {
+    transform: translateY(-5px);
+}
+
+.containerimg > a {
+    margin-top: 5%;
+    flex-basis: 30%;
+}
+
+.containerimg > a > img {
+    margin-right: 5%;
+    width: 100%;
+}
+
+.containerimg > a > img:first-of-type {
+    margin-left: 36%;
+}
+
+.textfooter {
+    margin: 0 auto;
+    padding-right: 15%;
+    padding-left: 15%;
+    text-align: center;
+}
+
+.textfooter a {
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    text-decoration: none;
+}
+
+footer a:any-link {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    margin-right: 5%;
+}
+
+/* wave animation */
+.waves {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.parallax > use {
+    animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+.yt .btn {
+    border-radius: 10px !important;
+}
+
+/* tablet view*/
+@media (max-width: 1023px) {
+    .logo {
+        margin-left: 10px;
+    }
+
+    .navbar-toggler {
+        border-radius: 3px;
+        margin-right: 20px;
+        background-color: #0f0f0f;
+    }
+
+    .navbar-collapse a.nav-link,
+    .dr {
+        margin: 0 20px;
+    }
+
+    .main-container {
+        margin-top: 2%;
+    }
+
+    .logo-beranda {
+        margin-top: 9%;
+    }
+
+    .judul {
+        text-align: center;
+    }
+
+    .maincontent {
+        margin-right: 10px;
+        text-align: justify;
+    }
+
+    .btn-primary {
+        margin-right: -20%;
+    }
+
+    .first {
+        height: 200px;
+    }
+
+    .first img {
+        width: 400px;
+        float: none;
+        margin-right: 190px;
+        margin-top: 12%;
+    }
+
+    .mt {
+        margin-top: 50%;
+    }
+
+    .row-service {
+        margin-top: -8%;
+    }
+
+    h2 h3 {
+        text-align: center;
+    }
+
+    .tegar {
+        margin-top: 10%;
+    }
+
+    .tegar > p {
+        margin-top: -20%;
+    }
+
+    .hanif > p {
+        margin-top: -160px;
+    }
+
+    .call-to-action {
+        background: linear-gradient(120deg, #0f0f0f, #151515, #232323);
+        padding: 30px;
+    }
+
+    .support {
+        height: 100px;
+    }
+
+    .call-to-action-text {
+        margin-top: -45%;
+    }
+
+    .call-to-action-btn {
+        margin-top: -91%;
+        color: black;
+    }
+
+    .section-container {
+        margin-top: -53%;
+    }
+
+    .container-social {
+        margin-top: -40%;
+    }
+
+    .card {
+        height: 78%;
+    }
+
+    .img-social {
+        margin-top: -43%;
+    }
+
+    .card-body {
+        margin-top: -70%;
+    }
+
+    .tentang {
+        margin-top: 0 !important;
+    }
+
+    .embed-responsive {
+        height: 78%;
+    }
+
+    .yt-tentang {
+        width: 100%;
+    }
+
+    .btn-more {
+        margin-left: -25%;
+        margin-top: 6%;
+    }
+
+    .title-section {
+        margin-top: -65%;
+    }
+
+    .container-img-han > img {
+        margin-top: -150%;
+        width: 25%;
+    }
+
+    .section-title-container-bawah {
+        margin-top: -50%;
+    }
+
+    .general-btn {
+        margin-top: -90%;
+    }
+
+    section.content {
+        margin-top: -10%;
+    }
+
+    footer {
+        height: 600px;
+    }
+
+    .footer-main {
+        padding-top: 13%;
+    }
+
+    .container-footer {
+        margin-top: -50%;
+    }
+
+    .copyright {
+        height: auto;
+        padding: 20px 0 -10px 0;
+    }
+
+    .copyright > .container {
+        margin-top: -10%;
+    }
+
+    .copyright > .container > .row {
+        margin-top: 0;
+    }
+
+    /* .footer-widget:last-of-type{
+        float: unset;
+        margin-left: 49%;
+        margin-top: -100%;
+    } */
+
+    .col-lg-3 .widget-title {
+        float: right;
+        margin-top: -100%;
+        margin-right: -38%;
+    }
+
+    .col-lg-3 .list-arrow {
+        float: right;
+        margin-top: -90%;
+        margin-right: -48%;
+    }
+
+    li a.text-white:last-of-type {
+        margin-right: 0;
+    }
+
+    /* .service-box{
+        margin-top: -5%;
+    } */
+
+    /*.container:last-of-type{
+        height: 200px;
+    }
+
+    .general-btn{
+        margin-top: -113%;
+    }
+
+    .container-social {
+        margin-top: -40%;
+    }
+
+    .card {
+        height: 28%;
+    }
+
+    .img-social {
+        margin-top: -43%;
+    }
+
+    .img-fluid {
+        margin-top: -150%;
+        width: 200px;
+    }
+
+    .card-body {
+        margin-top: -50%;
+    }
+
+    .footer-main{
+        height: 300px;
+        margin-top: -50%;
+    }
+
+    .footer-main > .container{
+        margin-top: -50%;
+    } */
+    .logos {
+        overflow: hidden;
+        padding: 30px 0px;
+        white-space: nowrap;
+        position: relative;
+      }
+      
+      .logos:before, .logos:after {
+        position: absolute;
+        top: 0;
+        content: '';
+        width: 250px;
+        height: 100%;
+        z-index: 2;
+      }
+      
+      .logos:before {
+        left: 0;
+        background: linear-gradient(to left, rgba(255,255,255,0), whitesmoke);
+      }
+      
+      .logos:after {
+        right: 0;
+        background: linear-gradient(to right, rgba(255,255,255,0), whitesmoke,);
+      }
+      
+      .logo_items {
+        display: inline-block;
+        animation: 35s slides infinite linear;
+      }
+      
+      .logos:hover .logo_items {
+        animation-play-state: paused;
+      }
+      
+      .logo_items img{
+        height: 100px;
+      }
+}
+
+/* hp large*/
+@media only screen and (max-width: 767px) {
+    .logo {
+        margin-left: 10px;
+    }
+
+    .navbar-toggler {
+        border-radius: 3px;
+        margin-right: 20px;
+        background-color: #0f0f0f;
+    }
+
+    li.nav-item:last-of-type {
+        margin-top: 5px;
+    }
+
+    .navbar-collapse a.nav-link,
+    .dr {
+        margin: 0 20px;
+    }
+
+    .logo-beranda {
+        margin-top: 17%;
+    }
+
+    .main-container {
+        margin-top: 2%;
+    }
+
+    .logo-beranda img {
+        width: 40%;
+    }
+
+    .logo-beranda > .teks {
+        font-size: 25px;
+    }
+
+    .logo-beranda > .quote {
+        font-size: 15px;
+    }
+
+    .col-lg-6 > .row {
+        margin-left: 0;
+    }
+
+    .sejarah {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .judul {
+        text-align: center;
+    }
+
+    .maincontent {
+        text-align: justify;
+        text-indent: 7%;
+        margin: 0 10px;
+    }
+
+    .maincontent span {
+        margin-left: -4%;
+        text-align: center;
+    }
+
+    .first {
+        text-align: center;
+    }
+
+    .first img {
+        margin: 20px 0 20px -40px;
+        width: 80%;
+    }
+
+    .section-title-container {
+        text-align: center;
+    }
+
+    .judulvm {
+        margin: 10px 0 5px;
+        font-size: 28px;
+    }
+
+    .tegar {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0 0 -10px;
+    }
+
+    .tegar img {
+        width: 50%;
+        margin: 0 0 100px 0;
+    }
+
+    .tegar p {
+        margin-right: 5%;
+        margin-left: -10% !important;
+    }
+
+    .vm p:first-of-type {
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+        font-size: 13px;
+        font-weight: bolder;
+        line-height: 20px;
+    }
+
+    .hanif {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0 0 -10px;
+    }
+
+    .hanif img {
+        width: 50%;
+        margin: 0 -10px 100px 0;
+    }
+
+    .hanif p {
+        margin: -20% -20% 0 10% !important;
+        text-align: center;
+    }
+
+    .support {
+        height: 150px;
+        padding: 60px 0 0 0;
+    }
+
+    .call-to-action-btn {
+        margin: -130px 0 0 0;
+    }
+
+    .section-container h2 {
+        margin-top: -5%;
+        margin-bottom: -2%;
+    }
+
+    .tentang {
+        margin-top: 0 !important;
+    }
+
+    .embed-responsive {
+        height: 50%;
+    }
+
+    .yt-tentang {
+        width: 100%;
+        height: 100%;
+    }
+
+    .social .card {
+        margin-top: -45%;
+        width: 365px;
+        height: 240px;
+    }
+
+    .img-social {
+        width: 25%;
+    }
+
+    .card-body {
+        margin-top: -30%;
+    }
+
+    .card-body .card-title {
+        margin-bottom: -5px;
+    }
+
+    .btn-more {
+        margin-left: 35%;
+    }
+
+    .title-section {
+        margin-top: -75%;
+    }
+
+    .title-section .judulvm {
+        margin-top: 0;
+    }
+
+    .row-service {
+        margin-top: 20%;
+    }
+
+    .container-img-han {
+        margin-top: -90%;
+    }
+
+    .container-img-han img {
+        width: 50%;
+    }
+
+    section.content {
+        text-align: center;
+    }
+
+    .content .section-title {
+        margin-bottom: -10px;
+    }
+
+    p.text-white {
+        margin-top: -28%;
+    }
+
+    .footer-social {
+        margin-top: 0 !important;
+    }
+
+    hr {
+        margin-top: 10%;
+    }
+
+    .forum {
+        visibility:hidden;
+    }
+
+    .project {
+        margin-top: -25% !important;
+    }
+
+    .col-lg-3 .widget-title {
+        float: none;
+        margin-top: -50%;
+        margin-right: 0;
+    }
+
+    .col-lg-3 .list-arrow {
+        float: none;
+        margin-top: -7%;
+        margin-right: 0;
+    }
+
+    .copyright {
+        margin-top: -25%;
+    }
+
+    .footer {
+        height: 65vh !important;
+    }
+
+    .logos {
+        overflow: hidden;
+        padding: 30px 0px;
+        white-space: nowrap;
+        position: relative;
+        margin-top: -130px;
+      }
+      
+      .logos:before, .logos:after {
+        position: absolute;
+        top: 0;
+        content: '';
+        width: 250px;
+        height: 100%;
+        z-index: 2;
+      }
+      
+      .logos:before {
+        left: 0;
+        background: linear-gradient(to left, rgba(255,255,255,0), whitesmoke);
+      }
+      
+      .logos:after {
+        right: 0;
+        background: linear-gradient(to right, rgba(255,255,255,0), whitesmoke);
+      }
+      
+      .logo_items {
+        display: inline-block;
+        animation: 35s slides infinite linear;
+      }
+      
+      .logos:hover .logo_items {
+        animation-play-state: paused;
+      }
+      
+      .logo_items img{
+        height: 50px;
+      }
+
+      .general-btn {
+        margin-top: 10%;
+        border-radius: 10px !important;
+    }
+}
+
+/* hp mid */
+@media only screen and (max-width: 424px) {
+    .logo {
+        margin-left: 10px;
+    }
+
+    .navbar-toggler {
+        border-radius: 3px;
+        margin-right: 20px;
+        background-color: #0f0f0f;
+    }
+
+    li.nav-item:last-of-type {
+        margin-top: 5px;
+    }
+
+    .navbar-collapse a.nav-link {
+        margin: 0 20px;
+    }
+
+    .dr {
+        margin: 0;
+    }
+
+    .logo-beranda {
+        margin-top: 19%;
+    }
+
+    .main-container {
+        margin-top: 1%;
+    }
+
+    .logo-beranda img {
+        width: 35%;
+    }
+
+    .logo-beranda > .teks {
+        font-size: 20px;
+    }
+
+    .logo-beranda > .quote {
+        font-size: 12px;
+        margin-top: -10px;
+    }
+
+    .judul {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .maincontent {
+        font-size: 15px;
+    }
+
+    .maincontent span {
+        margin-left: -6%;
+    }
+
+    .first {
+        float: none;
+        margin-top: 20%;
+    }
+
+    .first img {
+        width: 70%;
+    }
+
+    .section-title-container {
+        text-align: center;
+    }
+
+    h2.judulvm {
+        margin-top: -60%;
+    }
+
+    .tegar {
+        flex-direction: column;
+        text-align: center;
+        margin-top: -35%;
+    }
+
+    .tegar img {
+        width: 50%;
+    }
+
+    .tegar p {
+        margin: -20% 5% 0 -10% !important;
+    }
+
+    .vm p:first-of-type {
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+        font-size: 13px;
+        font-weight: bolder;
+        line-height: 20px;
+    }
+
+    .hanif {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0 0 -10px;
+    }
+
+    .hanif img {
+        width: 50%;
+        margin: 0 -10px 100px 0;
+    }
+
+    .hanif p {
+        margin: -20% -20% 0 10% !important;
+    }
+
+    .support {
+        padding: 50px 0 0 0;
+    }
+
+    .call-to-action-btn {
+        margin: -130px 0 0 0;
+    }
+
+    .section-container h2 {
+        margin-top: -5%;
+        margin-bottom: -2%;
+    }
+
+    .tentang {
+        margin-top: 0 !important;
+    }
+
+    .embed-responsive {
+        height: 50%;
+    }
+
+    .yt-tentang {
+        width: 100%;
+        height: 100%;
+    }
+
+    .social .card {
+        margin-top: -45%;
+        width: 313px;
+        height: 240px;
+    }
+
+    .img-social {
+        width: 25%;
+    }
+
+    .card-body {
+        margin-top: -30%;
+    }
+
+    .card-body .card-title {
+        margin-bottom: -5px;
+    }
+
+    .btn-more {
+        margin-left: 33%;
+    }
+
+    .title-section {
+        margin-top: -75%;
+    }
+
+    .title-section .judulvm {
+        margin-top: 0;
+    }
+
+    .row-service {
+        margin-top: 20%;
+    }
+
+    .container-img-han {
+        margin-top: -90%;
+    }
+
+    .container-img-han img {
+        width: 50%;
+    }
+
+    section.content {
+        text-align: center;
+    }
+
+    .content .section-title {
+        margin-bottom: -10px;
+    }
+
+    p.text-white {
+        margin-top: -25%;
+    }
+
+    .footer-social {
+        margin-top: 0 !important;
+    }
+
+    hr {
+        margin-top: 10%;
+    }
+
+    .forum {
+        visibility:hidden;
+    }
+
+    .project {
+        margin-top: -25% !important;
+    }
+
+    .col-lg-3 .widget-title {
+        float: none;
+        margin-top: -50%;
+        margin-right: 0;
+    }
+
+    .col-lg-3 .list-arrow {
+        float: none;
+        margin-top: -7%;
+        margin-right: 0;
+    }
+
+    .copyright {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        height: 70vh;
+    }
+
+    .logos {
+        overflow: hidden;
+        padding: 30px 0px;
+        white-space: nowrap;
+        position: relative;
+        margin-top: -130px;
+      }
+      
+      .logos:before, .logos:after {
+        position: absolute;
+        top: 0;
+        content: '';
+        width: 250px;
+        height: 100%;
+        z-index: 2;
+      }
+      
+      .logos:before {
+        left: 0;
+        background: linear-gradient(to left, rgba(255,255,255,0), whitesmoke);
+      }
+      
+      .logos:after {
+        right: 0;
+        background: linear-gradient(to right, rgba(255,255,255,0), whitesmoke);
+      }
+      
+      .logo_items {
+        display: inline-block;
+        animation: 35s slides infinite linear;
+      }
+      
+      .logos:hover .logo_items {
+        animation-play-state: paused;
+      }
+      
+      .logo_items img{
+        height: 50px;
+      }
+
+      .general-btn {
+        margin-top: 10%;
+        border-radius: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 393px) and (max-width: 394px) {
+    .logo {
+        margin-left: 10px;
+    }
+
+    .navbar-toggler {
+        border-radius: 3px;
+        margin-right: 20px;
+        background-color: #0f0f0f;
+    }
+
+    li.nav-item:last-of-type {
+        margin-top: 5px;
+    }
+
+    .navbar-collapse a.nav-link {
+        margin: 0 20px;
+    }
+
+    .dr {
+        margin: 0;
+    }
+
+    .logo-beranda {
+        margin-top: 19%;
+    }
+
+    .main-container {
+        margin-top: 1%;
+    }
+
+    .logo-beranda img {
+        width: 35%;
+    }
+
+    .logo-beranda > .teks {
+        font-size: 20px;
+    }
+
+    .logo-beranda > .quote {
+        font-size: 12px;
+        margin-top: -10px;
+    }
+
+    .judul {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .maincontent {
+        font-size: 15px;
+    }
+
+    .maincontent span {
+        margin-left: -6%;
+    }
+
+    .first {
+        float: none;
+        margin-top: 20%;
+    }
+
+    .first img {
+        width: 70%;
+    }
+
+    .section-title-container {
+        text-align: center;
+    }
+
+    h2.judulvm {
+        margin-top: -60%;
+    }
+
+    .tegar {
+        flex-direction: column;
+        text-align: center;
+        margin-top: -35%;
+    }
+
+    .tegar img {
+        width: 50%;
+    }
+
+    .tegar p {
+        margin: -20% 5% 0 -10% !important;
+    }
+
+    .vm p:first-of-type {
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+        font-size: 13px;
+        font-weight: bolder;
+        line-height: 20px;
+    }
+
+    .hanif {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0 0 -10px;
+    }
+
+    .hanif img {
+        width: 50%;
+        margin: 0 -10px 100px 0;
+    }
+
+    .hanif p {
+        margin: -20% -20% 0 10% !important;
+    }
+
+    .support {
+        padding: 50px 0 0 0;
+    }
+
+    .call-to-action-btn {
+        margin: -130px 0 0 0;
+    }
+
+    .section-container h2 {
+        margin-top: -5%;
+        margin-bottom: -2%;
+    }
+
+    .tentang {
+        margin-top: 0 !important;
+    }
+
+    .embed-responsive {
+        height: 50%;
+    }
+
+    .yt-tentang {
+        width: 100%;
+        height: 100%;
+    }
+
+    .social .card {
+        margin-top: -45%;
+        width: 313px;
+        height: 240px;
+    }
+
+    .img-social {
+        width: 25%;
+    }
+
+    .card-body {
+        margin-top: -30%;
+    }
+
+    .card-body .card-title {
+        margin-bottom: -5px;
+    }
+
+    .btn-more {
+        margin-left: 33%;
+    }
+
+    .title-section {
+        margin-top: -75%;
+    }
+
+    .title-section .judulvm {
+        margin-top: 0;
+    }
+
+    .row-service {
+        margin-top: 20%;
+    }
+
+    .container-img-han {
+        margin-top: -90%;
+    }
+
+    .container-img-han img {
+        width: 50%;
+    }
+
+    section.content {
+        text-align: center;
+    }
+
+    .content .section-title {
+        margin-bottom: -10px;
+    }
+
+    p.text-white {
+        margin-top: -25%;
+    }
+
+    .footer-social {
+        margin-top: 0 !important;
+    }
+
+    hr {
+        margin-top: 10%;
+    }
+
+    .forum {
+        visibility:hidden;
+    }
+
+    .project {
+        margin-top: -25% !important;
+    }
+
+    .col-lg-3 .widget-title {
+        float: none;
+        margin-top: -50%;
+        margin-right: 0;
+    }
+
+    .col-lg-3 .list-arrow {
+        float: none;
+        margin-top: -7%;
+        margin-right: 0;
+    }
+
+    .copyright {
+        margin-top: -10%;
+    }
+
+    .footer {
+        height: 65vh !important;
+    }
+
+    .logos {
+        overflow: hidden;
+        padding: 30px 0px;
+        white-space: nowrap;
+        position: relative;
+        margin-top: -130px;
+      }
+      
+      .logos:before, .logos:after {
+        position: absolute;
+        top: 0;
+        content: '';
+        width: 250px;
+        height: 100%;
+        z-index: 2;
+      }
+      
+      .logos:before {
+        left: 0;
+        background: linear-gradient(to left, rgba(255,255,255,0), whitesmoke);
+      }
+      
+      .logos:after {
+        right: 0;
+        background: linear-gradient(to right, rgba(255,255,255,0), whitesmoke);
+      }
+      
+      .logo_items {
+        display: inline-block;
+        animation: 35s slides infinite linear;
+      }
+      
+      .logos:hover .logo_items {
+        animation-play-state: paused;
+      }
+      
+      .logo_items img{
+        height: 50px;
+      }
+
+      .general-btn {
+        margin-top: 10%;
+        border-radius: 10px !important;
+    }
+}
+
+/* hp small */
+@media (max-width: 374px) {
+}
